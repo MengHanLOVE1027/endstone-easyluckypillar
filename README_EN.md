@@ -64,7 +64,7 @@ Server Root/
 
 1. **Download Plugin**
    - Download the latest version from [Release page](https://github.com/MengHanLOVE1027/endstone-easyluckypillar/releases)
-   - Or get it from [MineBBS](https://www.minebbs.com/resources/endstone-easyluckypillar.14896/)
+   - Or get it from [MineBBS](https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/)
 
 2. **Install Plugin**
    ```bash
@@ -369,7 +369,7 @@ Issues and Pull Requests are welcome!
 ## 🌟 Support & Feedback
 
 - **GitHub Issues**: [Submit Issues](https://github.com/MengHanLOVE1027/endstone-easyluckypillar/issues)
-- **MineBBS**: [Discussion Thread](https://www.minebbs.com/resources/endstone-easyluckypillar.14896/)
+- **MineBBS**: [Discussion Thread](https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/)
 - **Author**: 梦涵LOVE
 
 ---

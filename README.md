@@ -63,7 +63,7 @@ EndStone-EasyLuckyPillar 是一个专为 Endstone 服务器设计的多人竞技
 
 1. **下载插件**
    - 从 [Release页面](https://github.com/MengHanLOVE1027/endstone-easyluckypillar/releases) 下载最新版本
-   - 或从 [MineBBS](https://www.minebbs.com/resources/endstone-easyluckypillar.14896/) 获取
+   - 或从 [MineBBS](https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/) 获取
 
 2. **安装插件**
 
@@ -369,7 +369,7 @@ EndStone-EasyLuckyPillar 是一个专为 Endstone 服务器设计的多人竞技
 ## 🌟 支持与反馈
 
 - **GitHub Issues**: [提交问题](https://github.com/MengHanLOVE1027/endstone-easyluckypillar/issues)
-- **MineBBS**: [讨论帖](https://www.minebbs.com/resources/endstone-easyluckypillar.14896/)
+- **MineBBS**: [讨论帖](https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/)
 - **作者**: 梦涵LOVE
 
 ---
