@@ -32,11 +32,12 @@ class GameState(Enum):
 plugin_name = "EasyLuckyPillar"
 plugin_name_smallest = "easyluckypillar"
 plugin_description = "一个基于 EndStone 的幸运之柱小游戏插件 / A Lucky Pillar mini-game plugin based on EndStone."
-plugin_version = "0.1.1"
+plugin_version = "0.1.2"
 plugin_author = ["梦涵LOVE"]
 plugin_license = "AGPL-3.0"
 plugin_github_link = "https://github.com/MengHanLOVE1027/endstone-easyluckypillar"
 plugin_minebbs_link = "https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/"
+plugin_website = "https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/"
 
 plugin_path = Path(f"./plugins/{plugin_name}")
 plugin_config_path = plugin_path / "config" / "EasyLuckyPillar.json"
@@ -104,7 +105,7 @@ class RandomColor:
         return randomGradientColor(self.text)
 
 # TAG: 日志系统设置
-log_dir = Path(f"./logs/{plugin_name_smallest}")
+log_dir = Path(f"./logs/{plugin_name}")
 if not log_dir.exists():
     try:
         log_dir.mkdir(parents=True, exist_ok=True)
@@ -148,6 +149,7 @@ class EasyLuckyPillarPlugin(Plugin):
     description = plugin_description
     version = plugin_version
     authors = plugin_author
+    website = plugin_website
 
     commands = {
         "lp": {
@@ -258,7 +260,7 @@ class EasyLuckyPillarPlugin(Plugin):
         print(RandomColor("██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ██║     ██║   ██║██║     ██╔═██╗   ╚██╔╝  ██╔═══╝ ██║██║     ██║     ██╔══██║██╔══██╗"))
         print(RandomColor("███████╗██║  ██║███████║   ██║   ███████╗╚██████╔╝╚██████╗██║  ██╗   ██║   ██║     ██║███████╗███████╗██║  ██║██║  ██║"))
         print(RandomColor("╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝"))
-        print(RandomColor(f"""                                       作者：{plugin_author[0]}               版本：{plugin_version}"""))
+        print(RandomColor(f"""                                作者：{plugin_author[0]}               版本：{plugin_version}"""))
         plugin_print(f"="*80, "INFO")
         plugin_print(f"{plugin_name} - {plugin_description}")
         plugin_print(f"感谢您使用Easy系列插件！")
