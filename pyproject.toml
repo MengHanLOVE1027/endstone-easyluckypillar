@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-easyluckypillar"
+version = "0.1.0"
+authors = [
+    { name = "MengHanLOVE", email = "2193438288@qq.com" },
+]
+description = "一个基于 EndStone 的幸运之柱小游戏插件 / A Lucky Pillar mini-game plugin based on EndStone."
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+keywords = ["endstone", "plugins", "backup"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/MengHanLOVE1027/endstone-easyluckypillar"
+
+[project.entry-points."endstone"]
+easyluckypillar = "endstone_easyluckypillar:EasyLuckyPillarPlugin"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/endstone_easyluckypillar"]

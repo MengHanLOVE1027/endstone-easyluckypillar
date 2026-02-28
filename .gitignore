@@ -1,0 +1,6 @@
+.idea
+.vscode
+dist
+build
+endstone_easyluckypillar.egg-info
+*.spec
