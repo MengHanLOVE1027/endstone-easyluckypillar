@@ -1,7 +1,7 @@
 {
     "version": "0.1.3",
-    "download_url": "https://github.com/MengHanLOVE1027/endstone-easyluckypillar/releases/download/v0.1.3/endstone_easyluckypillar-0.1.2-py3-none-any.whl",
-    "update_content": "修复了一些bug，添加了新功能",
-    "author": "作者名",
-    "update_time": "2023-12-01 11:45:14"
+    "download_url": "https://github.com/MengHanLOVE1027/endstone-easyluckypillar/releases/download/v0.1.3/endstone_easyluckypillar-0.1.3-py3-none-any.whl",
+    "update_content": "更新版本号至 0.1.3，并适配EasyCheckUpdate",
+    "author": "梦涵LOVE",
+    "update_time": "2026-03-01 01:19:30"
 }

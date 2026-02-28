@@ -32,15 +32,16 @@ class GameState(Enum):
 plugin_name = "EasyLuckyPillar"
 plugin_name_smallest = "easyluckypillar"
 plugin_description = "一个基于 EndStone 的幸运之柱小游戏插件 / A Lucky Pillar mini-game plugin based on EndStone."
-plugin_version = "0.1.2"
+plugin_version = "0.1.3"
 plugin_author = ["梦涵LOVE"]
 plugin_license = "AGPL-3.0"
 plugin_github_link = "https://github.com/MengHanLOVE1027/endstone-easyluckypillar"
 plugin_minebbs_link = "https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/"
 plugin_website = "https://www.minebbs.com/resources/easyluckypillar-elp-endstone.15496/"
+plugin_update_url = "https://raw.githubusercontent.com/MengHanLOVE1027/endstone-easyluckypillar/refs/heads/main/update_versions.json"
 
 plugin_path = Path(f"./plugins/{plugin_name}")
-plugin_config_path = plugin_path / "config" / "EasyLuckyPillar.json"
+plugin_config_path = plugin_path / "config" / f"{plugin_name}.json"
 
 print_lock = Lock()  # 用于线程安全的日志输出
 
@@ -150,6 +151,7 @@ class EasyLuckyPillarPlugin(Plugin):
     version = plugin_version
     authors = plugin_author
     website = plugin_website
+    update_url = plugin_update_url
 
     commands = {
         "lp": {
