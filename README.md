@@ -1,6 +1,6 @@
 <div align="center">
 
-![EndStone-EasyLuckyPillar](https://socialify.git.ci/MengHanLOVE1027/endstone-easyluckypillar/image?custom_language=Python&description=1&font=Inter&forks=1&issues=1&language=1&logo=https://zh.minecraft.wiki/images/Bedrock_JE2_BE2.png?13f82&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
+![EndStone-EasyLuckyPillar](https://socialify.git.ci/MengHanLOVE1027/endstone-easyluckypillar/image?custom_language=Python&description=1&font=Inter&forks=1&issues=1&language=1&logo=https://zh.minecraft.wiki/images/Bedrock_JE2_BE2.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto)
 
 <h3>EndStone-EasyLuckyPillar</h3>
 

@@ -32,7 +32,7 @@ class GameState(Enum):
 plugin_name = "EasyLuckyPillar"
 plugin_name_smallest = "easyluckypillar"
 plugin_description = "一个基于 EndStone 的幸运之柱小游戏插件 / A Lucky Pillar mini-game plugin based on EndStone."
-plugin_version = "0.1.3"
+plugin_version = "0.1.4"
 plugin_author = ["梦涵LOVE"]
 plugin_license = "AGPL-3.0"
 plugin_github_link = "https://github.com/MengHanLOVE1027/endstone-easyluckypillar"
